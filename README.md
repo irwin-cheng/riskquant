@@ -1,5 +1,6 @@
 # riskquant
-
+#Update by:
+Irwin Cheng 
 A library to assist in quantifying risk.
 
 To install riskquant run the following command in root directory:
@@ -163,9 +164,9 @@ docker container run --rm -it \
   riskquant --file /data/input.csv
 ```
 
-When running `riskquant` via Docker, Docker needs to mount a local directory into the container so that 
-`riskquant` can read inputs *from* and write outputs *to* that directory.  This command mounts the local `data` 
-directory into the container at `/data`.  The `--file` option tells `riskquant` where to find the file when 
+When running `riskquant` via Docker, Docker needs to mount a local directory into the container so that
+`riskquant` can read inputs *from* and write outputs *to* that directory.  This command mounts the local `data`
+directory into the container at `/data`.  The `--file` option tells `riskquant` where to find the file when
 running inside the container.  You can pass other options to `riskquant` just like normal, including `--help`.
 
 Now, check the analysis results with a command like:
@@ -292,4 +293,3 @@ DATA
     |  __weakref__
     |      list of weak references to the object (if defined)
 ```
-
