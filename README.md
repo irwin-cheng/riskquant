@@ -1,6 +1,11 @@
 # riskquant
 #Update by:
-Irwin Cheng 
+Irwin Cheng
+
+#Updated date:
+May 29, 2021
+
+#Project:
 A library to assist in quantifying risk.
 
 To install riskquant run the following command in root directory:
