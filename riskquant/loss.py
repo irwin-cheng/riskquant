@@ -18,7 +18,6 @@
 import numpy as np
 import scipy
 
-
 class Loss(object):
     def __init__(self, frequency_model, magnitude_model):
         """:param frequency_model: A class with method draw(n=1) to draw a list of n int values
